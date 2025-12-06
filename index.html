@@ -39,17 +39,17 @@
         <form action="https://api.web3forms.com/submit" method="post">
             <input type="hidden" name="access_key" value="a8e4987d-e749-4e88-bc87-f423bdb78e90">
             <label for="firstname">Fist name</label>
-            <input type="text" id="firstname" placeholder="eg.Kelvin"
+            <input type="text" id="firstname" name="firstname" placeholder="eg.Kelvin"
             autocomplete="on" required>
 
             <p>
             <label for="lastname">Last Name</label>
-            <input type="text" id="lastname" placeholder="eg.Rose" required autocomplete="on">
+            <input type="text" id="lastname" name="lastname" placeholder="eg.Rose" required autocomplete="on">
             </p>
 
             <p>
                 <label for="number">Number</label>
-                <input type="tel" id="number" placeholder="555-555-5555"
+                <input type="tel" id="number" name="phone"placeholder="555-555-5555"
                 autocomplete="on" pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
             </p>
 
@@ -113,4 +113,5 @@
         &lt;&lt;&lt;&copy;Eric maina&gt;&gt;&gt;
    
     </body>
+
 </html>
