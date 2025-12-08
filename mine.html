@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html lang="em">
+    <head>
+        
+        <link rel="stylesheet" href="mine.css">
+    </head>
+    <body>
+        <h1>ERIC WACHIRA MAINA</h1>
+        <img src="Snapchat-2050060837.jpg" alt="Fall" title="My picture" height="300" width="300">
+
+        <p>
+        <caption> <em>At Konza Technologies Kenya </em> </caption>
+        </p>
+        <hr>
+        <h2>I offer different services in technological environment</h2>
+        
+        <aside>
+            <details>
+                <summary>Services I offer are(click > at biginning to view)</summary>
+                <p><ol>
+                    <em>
+            <li>
+                <p>Web designing.</p>
+            </li>
+            <li><p><p>Graphical designing.</p>
+                </p></li>
+                <li><p>Programming</p></li>
+                <li><p>Data entry</p></li>
+                <li><p>Database managment</p></li>
+                <li><p>Computer repair and maintainance</p></li>
+                </em>
+        </ol></p>
+            </details>
+        </aside>
+    
+        <h3>You can enter your details here and i will reach unto you</h3>
+        <fieldset>
+            <legend>Personal info</legend>
+        <form action="https://api.web3forms.com/submit" method="post">
+            <input type="hidden" name="access_key" value="a8e4987d-e749-4e88-bc87-f423bdb78e90">
+           
+            <label for="firstname">Fist name</label>
+            <input type="text"  name="firstname" id="firstname" placeholder="eg.Kelvin"
+            autocomplete="on" required>
+
+            <p>
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname" placeholder="eg.Rose" required autocomplete="on">
+            </p>
+
+            <p>
+                <label for="number">Number</label>
+                <input type="tel" id="number"  name="phone"placeholder="555-555-5555"
+                autocomplete="on" pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+            </p>
+
+          
+
+          
+             <h4>Chose the service you wish offerd</h4>
+            <label for="service">service</label>
+            <input type="text" id="service" name="service" list="service-list">
+            <datalist id="service-list">
+               
+                <option value="Web designing.">Web designing.</option>
+                <option value="Graphical designing">Graphical designing</option>
+                <option value="Programming">Programming</option>
+                <option value="Data entry">Data entry</option>
+                <option value="Database managment">Database managment</option>
+                <option value="Computer repair and maintainance">Computer repair and maintainance</option>
+            </datalist>
+            
+              <p>
+                <label for="runk">Runk the interaction with this web</label>
+                <input type="number" id="number"
+                min="1" max="5" value="5" >
+            </p>
+            <h5>You can upload your picture here</h5>
+            <input type="file" accept="image/*" id="imageInput">
+            <br>
+            <img src="" alt="image Preview" id="Preview" width="300">
+            
+<img id="preview" src="" alt="Image Preview" width="300" style="display:none; border:1px solid #ccc;"/>
+
+<script>
+document.getElementById("imageInput").addEventListener("change", function (event) {
+    const file = event.target.files[0];
+    if (file) {
+        const imgPreview = document.getElementById("preview");
+        imgPreview.src = URL.createObjectURL(file);
+        imgPreview.style.display = "block";
+    }
+});
+</script>
+            
+          
+           </fieldset>
+
+          
+        <h5>You can contact me at:-</h5>
+       
+        <fieldset>
+            <legend>Send me the details</legend>
+              <p>
+              <label for="details">message</Details></label>
+              <br>
+              <textarea name="message" id="message" cols="30" rows="10"
+              placeholder="Details of the service you wish offerd"></textarea>
+            </p>
+        </fieldset>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+          <br>  
+           </form>
+        <fieldset> 
+        <legend>Contacts</legend>
+        <li>
+            Dial:- <a href="tel:-0111941013">+254111941013</a>
+        </li>
+        <li>
+            Email:- <a href="mail:-593ericmaina@gmail.com">593ericmaina@gmail.com</a>
+        </li>
+        </fieldset>
+
+        <h6>Located at</h6>
+        <address>
+            <p>KIAMBU,KENYA</p>
+        </address>
+
+        &lt;&lt;&lt;&copy;Eric maina&gt;&gt;&gt;
+   
+    </body>
+</html>
